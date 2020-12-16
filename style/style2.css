@@ -1,0 +1,235 @@
+body {
+    background-color: #414451;
+}
+
+.burger {
+    float: right;
+    margin-top: -40px;
+    transition: all 0.2s ease;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/menu.png);
+
+
+}
+.burger:hover {
+    transform: scale(1.04);
+}
+
+input[type="checkbox"]  {
+    display: none;
+}
+input + .burger + div {
+    display: none;
+}
+
+input:checked + .burger + div {
+    display:block;
+}
+
+.menu {
+    position: absolute;
+    right: 55px;
+    top: 5px;
+
+    display: none;
+
+}
+
+.content1 {
+
+    width: 175px;
+    height: 40px;
+    background-image: url(../img/0.png);
+    background-size: cover;
+    background-position: center;
+
+}
+.content2 {
+
+}
+.content21 {
+    font-family: Tahoma;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 5px 10px 5px 10px;
+
+
+}
+.gun {
+    margin: 50px;
+    width: 400px;
+    background-color: #636363;
+
+    border-radius: 25px;
+    transition: all 0.2s ease;
+    display: inline-block;
+
+
+
+}
+.gun:hover {
+    box-shadow: 0px 0px 40px #a2a2a2;
+    transform: scale(1.04);
+}
+.gunpic {
+    width: 200px;
+    height: 130px;
+    background-color: grey;
+    border-radius: 25px 25px 25px 25px;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.guntitle {
+
+    font-size: 20px;
+    margin: 10px;
+    margin-top: -7px;
+}
+.more {
+    display: inline-block;
+    font-size: 24px;
+
+    float: right;
+    margin-top: -35px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+    color: violet;
+}
+.guninfo {
+    width: calc(400px - 200px);
+    float: right;
+    font-family: Tahoma;
+    color: #f2f2f2;
+    border-radius: 0 25px 25px 0;
+    text-align: left;
+    padding: 25px 0 25px 0;
+}
+.gundesc {
+    margin: 10px;
+    font-size: 12px;
+}
+.detaileddesc {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 40px 50px 50px 40px;
+}
+.content3 {
+    position: relative;
+    width: 50px;
+}
+.content31 {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/insta.png);
+}
+.content4 {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    margin-top: 20px;
+    bottom: 10;
+    margin-left: calc(400px - 83px - 200px - 50px);
+}
+.content41 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/insta.png);
+}
+.gun1 {
+    margin-top: 5px;
+    margin-bottom: -5px;
+    width: 410px;
+
+}
+.gunpic1 {
+    margin: 5px;
+    height: 70px;
+    width: 123px;
+    background-image: url(../img/7.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+
+}
+iframe {
+    margin-top: 5px;
+    width: 400px;
+    height: 223px;
+}
+.stats {
+    width: 90%;
+    text-align: left;
+    transition: all 0.2s ease;
+    float: left;
+}
+.statsinfo {
+    font-size: 24px;
+    color: #FFFFFF;
+
+}
+.ms {
+    font-weight: bold;
+    background-color: #AD2E24;
+    margin-bottom: 50px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #000000;
+    font-family: Tahoma;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.ms:hover {
+    background-position: right center;
+}
+.button1 {
+    background-image: linear-gradient(to right, #00e5ff, #1200ff);
+
+}
+.button2 {
+    background-image: linear-gradient(to right, #00ff5b, #0014ff);
+
+}
+.button3 {
+    background-image: linear-gradient(to right, #ff2cdf, #0014ff);
+
+}
+.button4 {
+    background-image: linear-gradient(to right, #ff0a6c, #2d27ff);
+
+}
+.button5 {
+    background-image: linear-gradient(to right, #ffe53b, #00ffff);
+
+}
+.button6 {
+    background-image: linear-gradient(to right, #00e1fd, #fc007a);
+
+}
+.top {
+    margin-top: 25px;
+    font-size: 30px;
+    height: 60px;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 25px;
+    color: #ffffff;
+    background-color: #636363;
+    margin-bottom: 20px;
+    font-family: Tahoma;
+
+}
+a:link {
+    color: #FFFFFF;
+}
+a:visited {
+    color: #FFFFFF;
+}

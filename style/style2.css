@@ -59,9 +59,11 @@ input:checked + .burger + div {
 
 }
 .gun {
-    margin: 50px;
-    width: 400px;
+    margin: 50px 50px 50px 25px;
+    width: calc(100% - 60px);
+    height: 210px;
     background-color: #636363;
+    position: relative;
 
     border-radius: 25px;
     transition: all 0.2s ease;
@@ -90,18 +92,21 @@ input:checked + .burger + div {
     margin-top: -7px;
 }
 .more {
+
     display: inline-block;
     font-size: 24px;
+    position: absolute;
 
-    float: right;
-    margin-top: -35px;
-    margin-right: 15px;
-    margin-bottom: 15px;
 
-    color: violet;
+    bottom: 20px;
+    right: 20px;
+
+
+
+
 }
 .guninfo {
-    width: calc(400px - 200px);
+    width: calc(100%  - 210px);
     float: right;
     font-family: Tahoma;
     color: #f2f2f2;

@@ -2,40 +2,16 @@ body {
     background-color: #414451;
 }
 
-.burger {
-    float: right;
-    margin-top: -80px;
-    transition: all 0.2s ease;
-    width: 80px;
-    height: 80px;
-    background-size: cover;
-    background-position: center;
-    background-image: url(../img/menu.png);
-
-
-}
-.burger:hover {
-    transform: scale(1.04);
-}
-
-input[type="checkbox"]  {
-    display: none;
-}
-input + .burger + div {
-    display: none;
-}
-
-input:checked + .burger + div {
-    display:block;
-}
 
 .menu {
     position: absolute;
-    right: 90px;
-    top: 10px;
-    padding: 10px 10px 10px 0px;
-    display: none;
+    right: 0;
+    top: 35px;
+    padding: 0px 25px 0px 0px;
 
+}
+input[type="checkbox"]  {
+    display: none;
 }
 
 .content1 {
@@ -52,8 +28,9 @@ input:checked + .burger + div {
 .content21 {
     font-family: Tahoma;
     color: #ffffff;
-    font-size: 20px;
-    margin: 5px 10px 5px 10px;
+    font-size: 24px;
+    display: inline-block;
+    margin: 0px 0px 0px 50px;
 
 
 }
